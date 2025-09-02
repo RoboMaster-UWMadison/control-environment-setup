@@ -44,9 +44,9 @@ In the "Target" page, select the Compiler v5 you just downloaded. In the "Debug"
 ![Keil choose Debugger](images/keil-choose-debugger.png)
 
 Click the "Build" button at top right of the IDE. If project builds without any error or warning, you are all set.
-![Keil build project button](images/keil-build-button)
+![Keil build project button](images/keil-build-button.png)
 
-Example of successful build:
+Example of successful build:<br>
 ![Keil successfully build a project](images/keil-success-build.png)
 
 ### Get Keil Professional License
