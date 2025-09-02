@@ -3,11 +3,11 @@ A tutorial for new members to setup CubeMX, to be used for UW-Madison RoboMaster
 
 ## Table of Contents
 - [For Windows](#windows)
- - [Download Keil](#download-keil)
- - [Download Compiler](#download-compiler)
- - [Open a Keil Project](#open-a-keil-project)
- - [Build a Keil Project](#build-a-keil-project)
- - [Get a Professional License for Keil](#get-keil-professional-license)
+  - [Download Keil](#download-keil)
+  - [Download Compiler](#download-compiler)
+  - [Open a Keil Project](#open-a-keil-project)
+  - [Build a Keil Project](#build-a-keil-project)
+  - [Get a Professional License for Keil](#get-keil-professional-license)
 - [For MacOS](#macos)
 - [For Linux](#linux)
 
