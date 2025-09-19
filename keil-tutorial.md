@@ -25,7 +25,7 @@ Follow the instructions in the executable to download Keil.
 ### Download Compiler
 Keil is installed with Arm Compiler v6, however, many projects, including ours, requires v5. Follow this link to download the compiler: [Arm Compiler v5](https://developer.arm.com/downloads/view/ACOMP5).
 
-Once logged in, download the following executable: "Arm Compiler 5.06 update 7 (build 960) Win32".
+Once logged in, select "r5p6-06rel1" under "Select Revision to Download". Download the following executable: "Arm Compiler 5.06 update 7 (build 750) Win32".
 ![Arm Compiler v5 download](images/keil-compiler-download.png)
 
 Unzip the downloaded folder, click into and run the setup.exe. The executable will download a folder into your chosen directory. Find your "Keil-v5" directory (which is the Keil you just downloaded in the last section), and create a folder called "ARMCC" (if the folder already exist, overwrite it), and copy everything in the folder you just downloaded into this folder.
@@ -36,7 +36,10 @@ Download the "led_program" under the supplements folder in this repo. Navigate t
 ![Open project file for Keil](images/keil-open-project.png)
 
 ### Build a Keil Project
-Once inside the Keil project, navigate to Project -> Options for Target 'led_program'...
+Once inside the Keil project, navigate to Projects -> Manage -> Project Items -> Folders/Extensions, click the three dots next to "Use ARM Compiler". Add your ARMCC path to the list.
+![Add ARMCC to Project Items](images/add-armcc-path.png)
+
+Navigate to Project -> Options for Target 'led_program'...
 ![Navigate to Opetions for Target Page](images/keil-navigate-build.png)
 
 In the "Target" page, select the Compiler v5 you just downloaded. In the "Debug" page, select "CMSIS-MAP Debugger".
