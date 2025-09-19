@@ -26,7 +26,7 @@ Follow the instructions in the executable to download Keil.
 Keil is installed with Arm Compiler v6, however, many projects, including ours, requires v5. Follow this link to download the compiler: [Arm Compiler v5](https://developer.arm.com/downloads/view/ACOMP5).
 
 Once logged in, download the following executable: "Arm Compiler 5.06 update 7 (build 960) Win32".
-![Arm Compiler v5 download](images/keil-compiler-download)
+![Arm Compiler v5 download](images/keil-compiler-download.png)
 
 Unzip the downloaded folder, click into and run the setup.exe. The executable will download a folder into your chosen directory. Find your "Keil-v5" directory (which is the Keil you just downloaded in the last section), and create a folder called "ARMCC" (if the folder already exist, overwrite it), and copy everything in the folder you just downloaded into this folder.
 ![Keil Add Compiler](images/keil-compiler-directory.png)
