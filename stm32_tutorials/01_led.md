@@ -44,12 +44,12 @@ APB1 Prescaler: 4
 APB2 Prescaler: 2
 ```
 Match the following image:
-!(Clock Configuration)[images/clock-config.png]
+![Clock Configuration](images/clock-config.png)
 
 Go to Pinout & Configuration -> SYS, set Debug to Serial Wire.
 
 In Project Manager, name your project and choose Toolchain/IDE = MDK-ARM and Min Version = V5 or V5.XX.
-!(project naming)[images/project-name.png]
+![project naming](images/project-name.png)
 
 In Code Generator, check:
  - Copy only the necessary library files
@@ -59,7 +59,7 @@ Click GENERATE CODE button on top right.
 
 Open the generated Keil project.
 
-Setup up the Keil project as shown in (keil-tutorial)[keil-tutorial.md].
+Setup up the Keil project as shown in [keil-tutorial](keil-tutorial.md).
 
 ## Writing the LED Control Code
 
@@ -80,7 +80,7 @@ while (1) {
 	HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, GPIO_PIN_SET);
 }
 ```
-!(LED main loop)[led-main-loop.png]
+![LED main loop](led-main-loop.png)
 
 
 This outputs high level to all three LED pins → Red + Green + Blue light mix into white.
