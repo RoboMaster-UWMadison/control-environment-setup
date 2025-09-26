@@ -27,7 +27,7 @@ GPIO Pull-up/Pull-down: No pull-up and no pull-down
 Maximum output speed: Low
 User Label: LED_B (PH10), LED_G (PH11), LED_R (PH12)
 ```
-!(GPIO layout)[images/GPIO-layout.png]
+![GPIO layout](images/GPIO-layout.png)
 
 Open Clock Configuration. Set the following:
 ```
@@ -80,7 +80,7 @@ while (1) {
 	HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, GPIO_PIN_SET);
 }
 ```
-![LED main loop](led-main-loop.png)
+![LED main loop](images/led-main-loop.png)
 
 
 This outputs high level to all three LED pins → Red + Green + Blue light mix into white.
