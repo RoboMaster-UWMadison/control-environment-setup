@@ -9,7 +9,7 @@ Demonstrate splitting tasks into FreeRTOS threads.
 - [Creating Tasks in Code](#creating-tasks-in-code)
 
 ## MultiThreading
-[Optional] If you are new to the idea of **multithreading**, search it up, and feel free to check out one of my repo explaning how multithread and multiprocess program are constructed: ()[].
+[Optional] If you are new to the idea of **multithreading**, search it up, and feel free to check out one of my repo explaning how multithread and multiprocess program are constructed: [multithreaded-wordmap](https://github.com/chongdayou/multithreaded-wordmap).
 In this chapter, you’ll use **FreeRTOS** to make LEDs blink independently, along with controlling the motor.  
 By creating multiple tasks and assigning them to different threads, you’ll see the principles of **task scheduling** and **multitasking** in action.  
 The goal is to help you understand how an operating system can manage multiple concurrent processes on the same microcontroller.

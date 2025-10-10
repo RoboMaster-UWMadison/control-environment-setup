@@ -82,6 +82,15 @@ Configuration -> Parameter Settings -> Bit Timings Parameters
 ```
 ![CAN setup in CubeMX](images/cubemx-can-setup.png)
 
+Go to **Pinout & Configuration -> NVIC -> Configuration**, and enable **CAN1 RX0 interrupts** and **CAN2 RX0 interrupts**.
+Go to **Pinout & Configuration -> GPIO -> Configuration -> CAN** and make sure you match the following pins:
+    - CAN2_RX - PB5
+    - CAN2_TX - PB6
+    - CAN1_RX - PD0
+    - CAN1_TX - PD1
+
+![CAN GPIO](images/can-gpio-pins.png)
+
 ## Sending CAN Signal
 Our robot is composed of chassis part and gimbal part, and we can control motors on these 2 parts with the provided functions, CAN_cmd_chassis and CAN_cmd_gimbal. The two functions looks like below.
 ```C
